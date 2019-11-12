@@ -1,14 +1,9 @@
 ::-webkit-scrollbar {
   width: 0px;
+    
 }
 
 html, body { height: auto }
-
-.pz-nav-btn {
-    text-decoration: none;
-    color:white;
-    font-weight: bold;
-}
 
 .pz-nav-btn:hover {
     text-decoration: none;
@@ -69,13 +64,7 @@ a {
     height: 100vh;
 }
 
-#fullpage section:nth-child(1){
-    
-}
 
-#fullpage section:nth-child(2){
-  
-}
 
 .fullscr_row {   
     height: 100vh;
@@ -93,21 +82,6 @@ a {
     width:100%;
     
     
-}
-.wstep-opis {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;    
-    color:white;
-    width:95vw;
-    transform: translate(-50%, -50%);
-    
-}
-
-.opis {
-    text-align: justify;    
-    padding: 15px;
 }
 
 
@@ -166,17 +140,7 @@ a {
      width: 100vw; 
 }
 
-.center-div .maly-opis
-{
-    text-align: justify;
-  
-     position: relative;
-     top: 50%;
-     transform: perspective(1px) translateY(-50%);
-     width:500px;
-     
-     
-}
+
 
 
 
@@ -202,9 +166,7 @@ a {
   padding:20px;
 }
 
-.duzy-opis {
-    width: 400px;
-}
+
 
 
                                                                 /*SECTION 4 SENIOR+*/
@@ -231,27 +193,10 @@ a {
     margin-top: 100px;
 }
 
-.center-div .maly-opis-lewy
-{
-    text-align: justify;  
-     position: relative;
-     top: 50%;
-     transform: perspective(1px) translateY(-50%);
-     width:50vw;
-     padding-right: 200px;
-     
-}
 
 
-.center-div .maly-opis-prawy
-{
-    text-align: justify;  
-     position: relative;
-     top: 50%;
-     transform: perspective(1px) translateY(-50%);
-     width:50vw;
-     padding-left: 200px;     
-}
+
+
 
 
 
@@ -290,27 +235,90 @@ a {
   color: white
 }
 
-.pz-w {
-    width:100%;
+
+
+
+
+
+
+/*                                                    na dole nowe na gorze recycling*/
+
+
+
+.col-12 {
+    padding: 0;
 }
 
-.pz-max-w {
-    max-width:500px;
+* {
+    color:white;
 }
 
 
-.pz-arrow {
-    width: 100%;     
+
+.opis {
+    display:none;
+    text-align: justify;
+    padding: 16px;
+}
+
+.showHide {
+    display:block;
+/*    color:blue;*/
+}
+
+.myDdBtn {
+    width: 100%;
+    border: none;
+    padding: 16px;    
+}
+
+#button1{background-color: rgba(138,29,63, 0.7);}
+#button2{background-color: rgba(171,0,91, 0.7);}
+#button3{background-color: rgba(153,0,81, 0.7);}
+#button4{background-color: rgba(138,29,63, 0.7);}
+#button5{background-color: rgba(171,0,91, 0.7);}
+#button6{background-color: rgba(163,0,74, 0.7);}
+#button7{background-color: rgba(158,49,83, 0.7);}
+#button8{background-color: rgba(138,29,63, 0.7);}
+#button9{background-color: rgba(124,25,56, 0.7);}
+#button10{background-color: rgba(255,194,5, 0.7);}
+#button11{background-color: rgba(255,194,5, 0.7);}
+#button12{fill: rgba(124,25,56, 0.7);}
+#button13{fill: rgba(171,0,91, 0.7);}
+#button14{fill: rgba(130,171,255, 0.7);}
+.button15{fill: rgba(255,255,255);}
+
+.svg_section {
+    margin-top: 10px;    
+}
+
+
+/*DACH*/
+.parent {
+  position: relative;
+}
+.child {
+  border-bottom: 50px solid rgba(163,0,74, 0.7);
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  width: 0;
+  height: 0;
+  bottom: -40px;
+  content: "";
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: auto;   
+}
+#button8 {
+    margin-top:40px;
+}
+
+
+#button12, #button13, #button14 {
     cursor: pointer;
 }
 
-a {
-	color: black;
-}
-
-a:hover {
-	text-decoration:none;
-	color:black;
-	font-weight: bold;
-}
 
