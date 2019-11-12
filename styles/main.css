@@ -1,0 +1,81 @@
+.pz-group {
+    pointer-events: all;
+}
+
+
+
+
+* {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pz-bg {    
+    position: relative;
+    min-width:1200px;
+    min-height:600px;
+    width:100vw;
+    height:100vh;
+    }
+
+
+
+.pz-section {    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.opis  {
+    color: white;
+    text-align: justify;
+    width: 400px;    
+    position: absolute;
+    top: 66%;
+    left:78%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.opis-programu  {
+    color: black;
+    text-align: justify;
+    width: 330px;    
+    position: absolute;
+    top: 5%;
+    left:21.5%;
+    font-size: 14px;
+    
+}
+
+.opis-programu, #x1{
+    display:none;    
+}
+
+#x1-btn{
+    display:none;
+    position: absolute;
+    top:4%;
+    left:50%;
+}
+
+
+#more1-btn {
+    display:none;
+}
+
+.pz-btn {
+    cursor: pointer;
+}
+
+#button12, #button13, #button14 {
+    cursor: pointer;
+}
+
+
+
